@@ -1,7 +1,9 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="h-32 bg-slate-400">Footer</div>
+      <div className="h-32 bg-gray-900 flex justify-center items-center">
+        <div>View Source on GitHub</div>
+      </div>
     </footer>
   );
 };
