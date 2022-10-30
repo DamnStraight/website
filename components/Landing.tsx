@@ -7,16 +7,12 @@ const Landing = () => {
   return (
     <section
       className={clsx(
-        // styles["animated-background"],
         styles["landing-background"],
         "bg-gradient-to-r from-purple-500 to-pink-500 drop-shadow-lg"
       )}
     >
       <div className="container mx-auto h-screen flex flex-col justify-center items-center">
-        <div
-          className={clsx("pt-16 px-12 drop-shadow-lg")}
-          // className={clsx("pt-16 px-12 drop-shadow-lg", styles.glass)}
-        >
+        <div className={"pt-16 px-12 drop-shadow-2xl"}>
           <p
             className="text-9xl font-bold"
             style={{ textShadow: "-1px 2px 12px rgba(0,0,0,0.6)" }}
@@ -24,7 +20,7 @@ const Landing = () => {
             Steven Labelle
           </p>
           <p
-            className="text-4xl uppercase font-bold text-end"
+            className="text-4xl text-slate-300/70 uppercase font-bold text-end"
             style={{ textShadow: "-1px 2px 6px rgba(0,0,0,0.6)" }}
           >
             Software / Full-Stack Developer
@@ -32,7 +28,10 @@ const Landing = () => {
           <div className="flex flex-row justify-end items-stretch mt-4">
             <span
               onClick={() =>
-                window.open("https://github.com/DamnStraight", "_blank")
+                window.open(
+                  process.env.NEXT_PUBLIC_GITHUB_URL as string,
+                  "_blank"
+                )
               }
               className="transition hover:bg-gray-300/10 rounded-lg px-4 mr-2 cursor-pointer"
             >
@@ -45,7 +44,12 @@ const Landing = () => {
               />
             </span>
             <span
-              onClick={() => window.open("linkedin", "_blank")}
+              onClick={() =>
+                window.open(
+                  process.env.NEXT_PUBLIC_LINKEDIN_URL as string,
+                  "_blank"
+                )
+              }
               className="transition hover:bg-gray-300/10 rounded-lg px-4 cursor-pointer"
             >
               <Image
