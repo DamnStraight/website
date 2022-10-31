@@ -1,40 +1,74 @@
 .landing-background {
-    background-size: 100% 100%;
-    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
-    background-image: radial-gradient(49% 81% at 66% 30%, #9603FF66 0%, #073AFF00 100%),radial-gradient(49% 81% at 32% 45%, #03B6FF42 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #000000FF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #000000FF 2%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #000000FF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #000000FF 0%, #000000FF 100%);
+  background-size: 100% 100%;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: radial-gradient(
+      49% 81% at 66% 30%,
+      #9603ff66 0%,
+      #073aff00 100%
+    ),
+    radial-gradient(49% 81% at 32% 45%, #03b6ff42 0%, #073aff00 100%),
+    radial-gradient(113% 91% at 17% -2%, #000000ff 1%, #ff000000 99%),
+    radial-gradient(142% 91% at 83% 7%, #000000ff 2%, #ff000000 99%),
+    radial-gradient(142% 91% at -6% 74%, #000000ff 1%, #ff000000 99%),
+    radial-gradient(142% 91% at 111% 84%, #000000ff 0%, #000000ff 100%);
 }
 
 .glass {
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .animated-background {
-    background: linear-gradient(307deg, #000000, #9603ffa8, #1d02ee9c, #03b8ff9c, #000000);
-    background-size: 800% 800%;
+  background: linear-gradient(
+    307deg,
+    #000000,
+    #9603ffa8,
+    #1d02ee9c,
+    #03b8ff9c,
+    #000000
+  );
+  background-size: 800% 800%;
 
-    -webkit-animation: AnimationName 25s ease infinite;
-    -moz-animation: AnimationName 25s ease infinite;
-    animation: AnimationName 25s ease infinite;
+  -webkit-animation: AnimationName 25s ease infinite;
+  -moz-animation: AnimationName 25s ease infinite;
+  animation: AnimationName 25s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 9%}
-    50%{background-position:100% 92%}
-    100%{background-position:0% 9%}
+  0% {
+    background-position: 0% 9%;
+  }
+  50% {
+    background-position: 100% 92%;
+  }
+  100% {
+    background-position: 0% 9%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 9%}
-    50%{background-position:100% 92%}
-    100%{background-position:0% 9%}
+  0% {
+    background-position: 0% 9%;
+  }
+  50% {
+    background-position: 100% 92%;
+  }
+  100% {
+    background-position: 0% 9%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:0% 9%}
-    50%{background-position:100% 92%}
-    100%{background-position:0% 9%}
+  0% {
+    background-position: 0% 9%;
+  }
+  50% {
+    background-position: 100% 92%;
+  }
+  100% {
+    background-position: 0% 9%;
+  }
 }
