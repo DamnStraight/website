@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import Image from "next/image";
+import { BASE_PATH } from "../../util/constants";
 
 import styles from "./Landing.module.css";
 
@@ -37,7 +38,7 @@ const Landing = () => {
             >
               <Image
                 style={{ filter: "drop-shadow(-1px 2px 6px rgba(0,0,0,0.6))" }}
-                src="/github.svg"
+                src={BASE_PATH + "/github.svg"}
                 alt="GitHub Logo"
                 width={74}
                 height={"100%"}
@@ -54,7 +55,7 @@ const Landing = () => {
             >
               <Image
                 style={{ filter: "drop-shadow(-1px 2px 6px rgba(0,0,0,0.6))" }}
-                src="/linkedin.svg"
+                src={BASE_PATH + "/linkedin.svg"}
                 alt="LinkedIn Logo"
                 width={74}
                 height="100%"

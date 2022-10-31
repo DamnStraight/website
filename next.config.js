@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production'
+const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  assetPrefix: isProd ? '/damnstraight.github.io/' : undefined,
-  basePath: '/website',
+  assetPrefix: isProd ? "/website/" : undefined,
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
