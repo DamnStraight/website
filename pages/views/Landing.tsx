@@ -34,7 +34,7 @@ const Landing = () => {
                   "_blank"
                 )
               }
-              className="relative mr-2 cursor-pointer rounded-lg px-4 transition hover:bg-gray-300/10"
+              className="relative mx-2 w-12 cursor-pointer rounded-lg transition hover:scale-110"
             >
               <Image
                 style={{ filter: "drop-shadow(-1px 2px 6px rgba(0,0,0,0.6))" }}
@@ -50,7 +50,7 @@ const Landing = () => {
                   "_blank"
                 )
               }
-              className="relative cursor-pointer rounded-lg px-4 transition hover:bg-gray-300/10"
+              className="relative mx-2 w-12 cursor-pointer rounded-lg transition hover:scale-110"
             >
               <Image
                 style={{ filter: "drop-shadow(-1px 2px 6px rgba(0,0,0,0.6))" }}
