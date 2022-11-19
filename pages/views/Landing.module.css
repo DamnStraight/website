@@ -1,4 +1,4 @@
-.landing-background {
+.container {
   background-size: 100% 100%;
   background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
   background-image: radial-gradient(
@@ -11,6 +11,14 @@
     radial-gradient(142% 91% at 83% 7%, #000000ff 2%, #ff000000 99%),
     radial-gradient(142% 91% at -6% 74%, #000000ff 1%, #ff000000 99%),
     radial-gradient(142% 91% at 111% 84%, #000000ff 0%, #000000ff 100%);
+}
+
+.text-light-shadow {
+  text-shadow: -1px 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+.text-thin-shadow {
+  text-shadow: -1px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
 .glass {
