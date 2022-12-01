@@ -6,6 +6,7 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head>
+          {/* TODO Pick a font and remove unused weights when I decide on which I like better */}
           <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
             rel="stylesheet"
