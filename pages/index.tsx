@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import About from "../views/About/About";
 
 import Footer from "../views/Footer";
 import Hero from "../views/Hero/Hero";
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
     <>
       <Navbar />
       <Hero />
+      <About />
       <Footer />
     </>
   );

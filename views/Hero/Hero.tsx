@@ -9,7 +9,7 @@ const classes = {
   hero: "absolute h-screen w-full",
   "content-wrapper": `
     relative z-10 h-full w-full 
-    flex flex-col content-center items-center justify-center
+    flex flex-col content-center items-center justify-center shadow-sm
   `,
   "grid-container": `
     h-[70%] w-full overflow-hidden opacity-[0.03] 
