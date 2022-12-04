@@ -59,8 +59,8 @@ const Hero = () => {
               </div>
             </div>
             <div className="opacity-30"></div>
-            <div className="opacity-20"></div>
-            <div className="p-2 opacity-70">
+            <div className="opacity-70"></div>
+            <div className="-rotate-2 scale-110 p-2 opacity-70">
               <div className="relative h-full w-full">
                 <Image
                   src={BASE_PATH + "/React.svg"}
@@ -77,7 +77,7 @@ const Hero = () => {
               />
             </div>
             <div className="opacity-50"></div>
-            <div className="p-2">
+            <div className="rotate-2 scale-125 p-2">
               <div className="relative h-full w-full">
                 <Image
                   src={BASE_PATH + "/NodeJS.svg"}
@@ -91,7 +91,7 @@ const Hero = () => {
             <div className="opacity-20"></div>
             {/*  */}
             <div className="opacity-50"></div>
-            <div className="p-2 opacity-60">
+            <div className="-rotate-12 p-2 opacity-90">
               <div className="relative h-full w-full">
                 <Image
                   src={BASE_PATH + "/Java.svg"}
@@ -103,7 +103,7 @@ const Hero = () => {
             <div className="opacity-50"></div>
             <div className="opacity-30"></div>
             <div className=""></div>
-            <div className="p-2">
+            <div className="scale-90 px-4">
               <div className="relative h-full w-full">
                 <Image
                   src={BASE_PATH + "/Redux.svg"}
@@ -140,15 +140,7 @@ const Hero = () => {
             </div>
             <div className="opacity-50"></div>
             <div className="opacity-40"></div>
-            <div className="">
-              {/* <div className="relative h-full w-full">
-                <Image
-                  src={BASE_PATH + "/Java.svg"}
-                  alt="CSS3 Logo"
-                  layout="fill"
-                />
-              </div> */}
-            </div>
+            <div></div>
             <div className="p-2 opacity-50 md:hidden lg:block">
               <div className="relative h-full w-full">
                 <Image
@@ -160,7 +152,7 @@ const Hero = () => {
             </div>
             <div className="opacity-0"></div>
             {/*  */}
-            <div className="p-2">
+            <div className="-rotate-6 scale-125 p-2">
               <div className="relative h-full w-full">
                 <Image
                   src={BASE_PATH + "/Sass.svg"}
@@ -169,7 +161,7 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <div className="p-2 opacity-70 md:hidden lg:block">
+            <div className="scale-90 p-2 opacity-70 md:hidden lg:block">
               <div className="relative h-full w-full">
                 <Image
                   src={BASE_PATH + "/Docker.svg"}
@@ -208,6 +200,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      <div className={styles["dotted-overlay"]}></div>
       <main>
         <div className={classes["title-container"]}>
           <div className={classes["title-wrapper"]}>
