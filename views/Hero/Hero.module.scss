@@ -1,13 +1,31 @@
 .glass {
     /* From https://css.glass */
-    background: rgba(63, 63, 70, 0.15);
+    background: rgba(0, 0, 0, 0.1);
+    // background: rgba(63, 63, 70, 0.01);
     // background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
-    // border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    // border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    // scale: 1.2;
   }
+
+.glassgrid {
+  // & > *:not(*:has(span)) {
+  & > *:not(&:has(span)) {
+    background: rgba(0, 0, 0, 1);
+    // background: rgba(63, 63, 70, 1);
+    // background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    // backdrop-filter: blur(7px);
+    // -webkit-backdrop-filter: blur(10px);
+    // border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
   
   .linear-bg {
     background-size: 100% 100%;
