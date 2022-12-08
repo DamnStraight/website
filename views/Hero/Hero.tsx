@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="p-2 opacity-20">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/CSS.svg"}
+                src={BASE_PATH + "CSS.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -70,7 +70,7 @@ const Hero = () => {
           <div className="p-2 opacity-70">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/React.svg"}
+                src={BASE_PATH + "React.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -79,7 +79,7 @@ const Hero = () => {
           <div className="p-2">
             <div className="relative h-full w-full opacity-30">
               <Image
-                src={BASE_PATH + "/HTML.svg"}
+                src={BASE_PATH + "HTML.svg"}
                 alt="HTML Logo"
                 layout="fill"
               />
@@ -90,7 +90,7 @@ const Hero = () => {
           <div className="p-2">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/NodeJS.svg"}
+                src={BASE_PATH + "NodeJS.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -103,7 +103,7 @@ const Hero = () => {
           <div className="p-2 opacity-90">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/Java.svg"}
+                src={BASE_PATH + "Java.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -116,7 +116,7 @@ const Hero = () => {
           <div className="px-4 opacity-50">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/Redux.svg"}
+                src={BASE_PATH + "Redux.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -128,7 +128,7 @@ const Hero = () => {
           <div className="p-2">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/PostgreSQL.svg"}
+                src={BASE_PATH + "PostgreSQL.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -154,7 +154,7 @@ const Hero = () => {
           <div className="p-2 opacity-50 md:hidden lg:block">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/Spring.svg"}
+                src={BASE_PATH + "Spring.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -165,7 +165,7 @@ const Hero = () => {
           <div className="p-2">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/Sass.svg"}
+                src={BASE_PATH + "Sass.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -174,7 +174,7 @@ const Hero = () => {
           <div className="p-2 opacity-70 md:hidden lg:block">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/Docker.svg"}
+                src={BASE_PATH + "Docker.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
@@ -187,7 +187,7 @@ const Hero = () => {
           <div className="p-2 opacity-80">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/Tailwindcss.svg"}
+                src={BASE_PATH + "Tailwindcss.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
