@@ -59,13 +59,13 @@ const displayProjects: Project[] = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="z-[-1] container relative mx-auto bg-zinc-900">
+    <section id="projects" className="container mx-auto bg-zinc-900">
       <div>
         <h1 className="pt-4 pb-8 text-center text-7xl font-thin text-slate-200/50 md:py-4">
           Projects
         </h1>
       </div>
-      <div className="relative z-[0] grid w-full grid-cols-1 items-center gap-8 p-0 md:p-24 lg:grid-cols-2">
+      <div className="relative grid w-full grid-cols-1 items-center gap-8 p-0 md:p-24 lg:grid-cols-2 z-[20]">
         {displayProjects.map((item, index) => (
           <ProjectCard key={`${index}-${item.title}`} project={item} />
         ))}

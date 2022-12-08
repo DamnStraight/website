@@ -60,7 +60,7 @@ const About = () => {
         </div>
       </Parallax> */}
       <Parallax offset={150}>
-        <div className="container relative z-10 mx-auto">
+        <div className="container relative mx-auto">
           <ApplicationWindow
             variant="dark"
             title="steven@dev: ~/projects/Portfolio"
