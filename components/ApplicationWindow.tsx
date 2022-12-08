@@ -21,7 +21,7 @@ const classes = {
   `,
   titleContent: `
     absolute h-fit w-full 
-    flex items-center justify-center 
+    hidden md:flex items-center justify-center 
     font-bold text-zinc-400 opacity-50
   `,
 };

@@ -10,7 +10,8 @@ const classes = {
   `,
   aboutContent: `
     w-3/4 rounded-lg p-8 
-    text-3xl text-slate-300 decoration-1 underline-offset-4
+    text-slate-300 decoration-1 underline-offset-4
+    text-xl md:text-2xl lg:text-3xl 
   `,
   photoWindowWrapper: `
     z-20 absolute right-0 top-[-190px] lg:top-[-140px] h-[375px] w-1/3
