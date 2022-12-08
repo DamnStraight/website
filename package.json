@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prepare": "husky install",
     "format": "prettier --write ./pages ./views",
-    "deploy": "rm -rf .next/ && rm -rf out/ && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "clsx": "^1.2.1",

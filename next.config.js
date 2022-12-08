@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  assetPrefix: isProd ? "/website/" : undefined,
+  assetPrefix: isProd ? process.env.NEXT_PUBLIC_BASEPATH : undefined,
   reactStrictMode: true,
   swcMinify: true,
   images: {
