@@ -59,7 +59,7 @@ const displayProjects: Project[] = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="container relative mx-auto bg-zinc-900">
+    <section id="projects" className="z-[-1] container relative mx-auto bg-zinc-900">
       <div>
         <h1 className="pt-4 pb-8 text-center text-7xl font-thin text-slate-200/50 md:py-4">
           Projects
