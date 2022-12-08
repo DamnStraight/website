@@ -142,7 +142,7 @@ const Hero = () => {
           <div className="p-2">
             <div className="relative h-full w-full">
               <Image
-                src={BASE_PATH + "/git.svg"}
+                src={BASE_PATH + "git.svg"}
                 alt="CSS3 Logo"
                 layout="fill"
               />
