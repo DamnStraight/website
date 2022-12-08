@@ -8,10 +8,8 @@ html {
 
 body {
   @apply bg-zinc-900;
+  @apply scroll-smooth;
   padding: 0;
   margin: 0;
-  /* font-family: -apple-system, Lato, Roboto, Lato, Roboto, BlinkMacSystemFont, Segoe UI,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-  font-family: Lato, Roboto, Lato, Roboto, BlinkMacSystemFont, Segoe UI,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: inter, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }

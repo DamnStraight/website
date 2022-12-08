@@ -1,25 +1,29 @@
 import clsx from "clsx";
 
+import styles from "./Navbar.module.scss";
+
 const classes = {
-  "navbar-wrapper": `
-    absolute z-20 py-6 w-full
+  navbarWrapper: `
+    absolute z-20 py-4 w-full
     flex items-center justify-center space-x-16 
     text-2xl font-thin uppercase tracking-wide text-zinc-300 decoration-1 
     underline-offset-4
   `,
-  "navbar-content": `
-    flex items-center rounded-xl 
-    [&>*]:p-6 [&>*]:transition [&>*]:ease-in hover:[&>*]:bg-slate-500/5 [&>*]:rounded-md 
-  `,
+  navbarContent: clsx(
+    styles.glass,
+    `
+    flex items-center rounded-xl overflow-hidden
+    [&>*]:px-6 [&>*]:py-4 [&>*]:transition [&>*]:ease-in hover:[&>*]:bg-slate-500/5
+  `
+  ),
 };
 
 const Navbar = () => {
   return (
-    <div className={clsx(classes["navbar-wrapper"])}>
-      <div className={classes["navbar-content"]}>
+    <div className={clsx(classes.navbarWrapper)}>
+      <div className={classes.navbarContent}>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
       </div>
     </div>
   );

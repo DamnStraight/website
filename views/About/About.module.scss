@@ -1,0 +1,43 @@
+.blink {
+  animation: blinker 1s infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.monokai-pink {
+  color: #f36e89;
+}
+
+.monokai-orange {
+  color: #f49d70;
+}
+
+.monokai-yellow {
+  color: #fcd877;
+}
+
+.monokai-green {
+  color: #b2d982;
+}
+
+.monokai-blue {
+  color: #88dae6;
+}
+
+.monokai-mauve {
+  color: #a8a0ed;
+}
+
+.linear-bg {
+  background: rgb(143, 58, 139);
+  background: linear-gradient(
+    29deg,
+    rgba(143, 58, 139, 1) 0%,
+    rgba(84, 37, 137, 1) 48%,
+    rgba(35, 16, 98, 1) 100%
+  );
+}
