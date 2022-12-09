@@ -1,5 +1,9 @@
-# Website
+<p align="center">
+    <img width="50%" src="./readme/website.png" />
+</p>
 
-Simple website made using nextjs and tailwindcss. Currently hosted via github pages, you can see it [here](https://damnstraight.github.io/website/).
+---
+<br />
+Simple resume style website made using NextJS and TailwindCSS. 
 
-Currently just a landing page, with plans to flesh it out with more details over time.
+Currently hosted via github pages, you can see it live [here](https://stevenlabelle.ca/).
