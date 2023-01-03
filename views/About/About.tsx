@@ -88,8 +88,8 @@ const About = () => {
                 <br />
                 <p className="pb-2 font-medium uppercase">About:</p>
                 <p>
-                  I'm a software developer based in Montreal, Canada 🇨🇦 and
-                  recent graduate of Computer Science from Concordia University.
+                  I'm a software developer based in Montreal, Canada and
+                  a recent graduate of Computer Science from Concordia University.
                 </p>
                 <br />
                 <p>
